@@ -3,6 +3,7 @@ package Test_Git;
 public class GradeExam {
 	/** Main method */
 	public static void main(String args[]) {
+		
 		// Students' answers to the questions
 		char[][] answers = { { 'A', 'B', 'A', 'C', 'C', 'D', 'E', 'E', 'A', 'D' },
 				{ 'D', 'B', 'A', 'B', 'C', 'A', 'E', 'E', 'A', 'D' },
@@ -14,7 +15,7 @@ public class GradeExam {
 				{ 'E', 'B', 'E', 'C', 'C', 'D', 'E', 'E', 'A', 'D' } };
 
 		// Key to the questions
-		char[] keys = { 'D', 'B', 'D', 'C', 'C', 'D', 'A', 'E', 'A', 'D' };
+		char[] keys = { 'A', 'B', 'D', 'B', 'C', 'D', 'A', 'E', 'A', 'D' };
 
 		// Grade all answers
 		for (int i = 0; i < answers.length; i++) {
